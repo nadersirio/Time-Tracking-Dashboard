@@ -5,76 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <section class="header_user-profile">
+    <div class="header_info-user">
+      <div class="header_info_name">
+        <img class="header_info_man-image" src="./images/image-jeremy.png" alt="Man Smiling Image">
+        <div class="header_info_name_adjust">
+          <p>Report for</p>
+          <h1>Jeremy
+          Robson</h1>
+        </div>
+      </div>
+      <div class="header_info_time">
+        <button class="button-custom" type="button" onclick="click()">Daily</button>
+        <button class="button-custom" type="button" onclick="click()">Weekly</button>
+        <button class="button-custom" type="button" onclick="click()">Monthly</button>
+      </div>
+    </div>
+    <div class="header_specs-user">
+      <div>
+        <div class="container-default container-work"></div>
+        <div class="header_text-container">
+          <h2>Work <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>5hrs</h3> <!-- daily -->
+            <p>Previous - 7hrs</p> <!-- daily -->
+          </div>
+        </div>
+      </div>
 
-  Report for
-  Jeremy Robson
+      <div>
+        <div class="container-default container-play"></div>
+        <div class="header_text-container">
+          <h2>Play <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>1hr</h3> <!-- daily -->
+            <p>Previous - 2hrs</p> <!-- daily -->
+          </div>
+        </div>
+      </div>
 
-  Daily
-  Weekly
-  Monthly
+      <div>
+        <div class="container-default container-study"></div>
+        <div class="header_text-container">
+          <h2>Study <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>0hrs</h3> <!-- daily -->
+            <p>Previous - 1hr</p> <!-- daily -->
+          </div>
+        </div>
+      </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+      <div>
+        <div class="container-default container-exercise"></div>
+        <div class="header_text-container">
+          <h2>Exercise <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>1hr</h3> <!-- daily -->
+            <p>Previous - 1hr</p> <!-- daily -->
+          </div>
+        </div>
+      </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+      <div>
+        <div class="container-default container-social"></div>
+        <div class="header_text-container">
+          <h2>Social <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>1hr</h3> <!-- daily -->
+            <p>Previous - 3hrs</p> <!-- daily -->
+          </div>
+        </div>
+      </div>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+      <div>
+        <div class="container-default container-selfCare"></div>
+        <div class="header_text-container">
+          <h2>Self Care <img class="option-icon" alt="Option Icon" src="./images/icon-ellipsis.svg"></h2>
+          <div class="header_specs_info-text">
+            <h3>0hrs</h3> <!-- daily -->
+            <p>Previous - 1hr</p> <!-- daily -->
+          </div>
+        </div>
+        </div>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
+    </div>
+  </section>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/nadersirio">Náder W. S. Sírio.</a>.
   </div>
 </body>
 </html>
