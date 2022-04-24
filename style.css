@@ -126,9 +126,19 @@ p {
   margin: 0 20px 0 20px;
   justify-content: center;
 }
+
+.option-button {
+  background: none;
+  border: none;
+}
+
 .option-icon {
   padding-right: 15px;
   width: 15px;
+}
+
+.option-button:hover {
+  cursor: pointer;
 }
 
 .header_text-container {
@@ -254,7 +264,7 @@ p {
     height: 85px;
   }
   .option-icon {
-    padding-right: 20px;
+    padding-right: 16px;
     width: 16px;
   }
   .header_specs_info-text {
