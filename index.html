@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +24,9 @@
         </div>
       </div>
       <div class="header_info_time">
-        <button class="button-custom" type="button" onclick="click()">Daily</button>
-        <button class="button-custom" type="button" onclick="click()">Weekly</button>
-        <button class="button-custom" type="button" onclick="click()">Monthly</button>
+        <button class="button-custom" id="day" type="button" onclick="dayClick()">Daily</button>
+        <button class="button-custom" id="week" type="button" onclick="weekClick()">Weekly</button>
+        <button class="button-custom" id="month" type="button" onclick="monthClick()">Monthly</button>
       </div>
     </div>
     <div class="header_specs-user">
