@@ -7,7 +7,6 @@
 
 function dateClick(period) {
   //let data = getData()
-
   switch (period) {
     case "day":
       workHours.innerHTML = "5hrs";
