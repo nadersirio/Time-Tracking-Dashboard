@@ -23,7 +23,7 @@ body {
 
 h2 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1rem;
   color: var(--white);
   margin: 0;
   display: flex;
@@ -34,13 +34,13 @@ h2 {
 h3 {
   color: var(--white);
   font-weight: 300;
-  font-size: 35px;
+  font-size: 2.2rem;
   margin: 15px 10px 5px 0px;
 }
 
 p {
   font-weight: 300;
-  font-size: 12px;
+  font-size: 0.8rem;
   color: var(--light-blue);
   margin-top: 0;
 }
