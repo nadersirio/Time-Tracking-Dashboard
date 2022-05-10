@@ -137,11 +137,12 @@ p {
 .option-button {
   background: none;
   border: none;
+  padding-right: 40px;
+  width: 15px;
 }
 
-.option-icon {
-  padding-right: 15px;
-  width: 15px;
+button, {
+
 }
 
 .option-button:hover {
